@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRKQ212</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <div class="avatar">
+    <img src="images/avatar.png" alt="Avatar" id="avatar">
+  </div>
+
+  <h1 id="nickname">trkq212</h1>
+
+  <div class="links">
+    <a href="https://www.instagram.com/trkq212/">Instagram</a>
+    <a href="https://web.telegram.org/k/#@autostoop">Telegram</a>
+    <a href="https://soundcloud.com/trkq212">Soundcloud</a>
+  </div>
+
+  <img src="images/headphones.png" alt="Headphones" class="headphones">
+
+  <!-- JS -->
+  <script>
+    // Клик по аватару или тексту обновляет страницу
+    document.getElementById("avatar").addEventListener("click", () => {
+      location.reload();
+    });
+    document.getElementById("nickname").addEventListener("click", () => {
+      location.reload();
+    });
+  </script>
+
+</body>
+</html>
